@@ -1,0 +1,102 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 560px;
+    margin :auto;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    flex-grow: 2;
+    width: 300px;
+    margin: 10px auto;
+    height: 290px;
+    justify-content: space-evenly;
+}
+.formBox{
+    border: 1px solid;
+    border-top-color:  rgb(203, 197, 197);
+    border-right-color:  rgb(221, 214, 214);
+    border-left-color:  rgb(214, 209, 209);
+    border-bottom-color:  rgb(222, 214, 214);
+    height: 300px;
+    width: 330px;
+    margin: 5px auto;
+}
+.btn{
+    background-color: yellow;
+}
+.btn:hover{
+    background-color: rgb(236, 236, 48);
+}
+.terms{
+    font-size: 13px;
+    margin-top:-2px ;
+    margin-bottom:15px ;
+}
+.form h3{
+    margin-bottom: 10px;
+}
+.login img{
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+.loginth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+    font-weight: 100;
+}
+.loginth:hover{
+    cursor: pointer;
+}
+.divide{
+    color: rgb(128, 123, 123);
+    font-weight: 800;
+    margin: 5px;
+}
+.divide .hr{
+   color: rgb(220, 217, 217);
+}
+.btn2{
+    width: 330px;
+    border: 1px solid rgb(222, 214, 214);
+}
+.last{
+    margin: 10px;
+    
+}
+.last a{
+    margin:20px;
+    font-weight: 100;
+    font-size: 13px;
+}
+#lasthr{
+    color: rgb(242, 233, 233);
+}
+.copyright{
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+}
+input[type='email']{
+  height: 28px;
+  color: black;
+}
+input[type='email']:active{
+    border: 1px solid;
+}
